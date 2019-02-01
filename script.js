@@ -80,6 +80,27 @@ for (var i = 0; i < boxes.length; i++) {
 			} else if (boxes[2].innerHTML === "x" && boxes[4].innerHTML === "x" && boxes[6].innerHTML === "x") {
 				alert("x is the winner!");
 			};	
+
+			// code for O winning the game
+			if (boxes[0].innerHTML === "o" && boxes[1].innerHTML === "o" && boxes[2].innerHTML === "o") {
+			alert("o is the winner!");
+			} else if (boxes[3].innerHTML === "o" && boxes[4].innerHTML === "o" && boxes[5].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[6].innerHTML === "o" && boxes[7].innerHTML === "o" && boxes[8].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[0].innerHTML === "o" && boxes[3].innerHTML === "o" && boxes[6].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[1].innerHTML === "o" && boxes[4].innerHTML === "o" && boxes[7].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[2].innerHTML === "o" && boxes[5].innerHTML === "o" && boxes[8].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[0].innerHTML === "o" && boxes[4].innerHTML === "o" && boxes[8].innerHTML === "o") {
+				alert("o is the winner!");
+			} else if (boxes[2].innerHTML === "o" && boxes[4].innerHTML === "o" && boxes[6].innerHTML === "o") {
+				alert("o is the winner!");
+			};	
+
+
 		});
 	})(i)};
 
