@@ -20,7 +20,15 @@
 	<!-- Nav Bar -->
 	<nav class="navbar navbar-light bg-light">
   		<span class="navbar-brand mb-0 h1">Tic Tac Toe</span>
+  		<!-- container for scoreboards -->
+  		<div class="scoreboard ml-5">
+  			<p class="text-center d-inline m-3">'X' won: <span id="x-score">0</span> Times</p>
+  			<p class="text-center d-inline m-3">Ties: <span id="ties">0</span></p>
+  			<p class="text-center d-inline m-3">'O' won: <span id="o-score">0</span> Times</p>
+  		</div>
   		<span>
+  			<!-- functionality buttons -->
+  			<button id="new" class="btn btn-dark">New Game</button>
   			<button id="reset" class="btn btn-dark">Reset</button>
   		</span>
 	</nav>
